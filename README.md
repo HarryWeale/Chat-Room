@@ -1,5 +1,5 @@
 # Chat Room
-A basic chat room on Linux, essentially a group chat.<br>
+A chat room on Linux; essentially a group chat.<br>
 Users can chat anonymously, and there are join and exit messages.
 
 ## Usage
