@@ -61,10 +61,8 @@ void add_to_pfds(struct pollfd *pfds[], int *pfds_size, int *fd_count, int new_f
                 *pfds_size *= 2;
                 *pfds = realloc(*pfds, (sizeof (**pfds))*(*pfds_size));
         }
-
         (*pfds)[*fd_count].fd = new_fd;
         (*pfds)[*fd_count].events = POLLIN;
-
         (*fd_count)++;
 }
 
