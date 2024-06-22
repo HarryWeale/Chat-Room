@@ -114,7 +114,6 @@ void send_message(int listener, int sender, int numBytes, int fd_count, struct p
         }
 }
 
-
 int main(void) {
         int new_fd;
         int listener = get_listener_socket();
